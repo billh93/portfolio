@@ -1,0 +1,1 @@
+This is a basic example of a web hosting landing page for end users.

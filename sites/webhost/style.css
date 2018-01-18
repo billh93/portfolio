@@ -1,0 +1,82 @@
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
+.main-text{
+	font-family: 'Droid Serif', serif;
+	font-size: 5em;
+	color: white;
+}
+
+.main-subtext{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+}
+
+header {
+    background-image: url('img/skyline.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: contain;
+    background-size: cover;
+    -o-background-size: contain;
+    text-align: center;
+    color: #fff;
+}
+
+#intro{
+	padding: 10% 0 0 0;
+}
+
+#why h3{
+	color: white;
+}
+
+.reasons-desc-padding{
+	padding: 2.8em;
+	margin-top: 3%;
+}
+
+footer{
+	background-color: #0c84e4;
+	padding-top: 1%;
+}
+
+footer p, footer h5{
+	color: white;
+}
+
+footer a{
+	color: #b2dbfb;
+	text-decoration: none !important;
+}
+
+footer a:hover{
+	color: white;
+}
+
+.footer__block h4 {
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer__copyright {
+    background: #34314c;
+    color: #ccc;
+    padding: 20px 0;
+    font-size: 12px;
+    line-height: 28px;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}

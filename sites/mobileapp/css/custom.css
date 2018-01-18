@@ -1,0 +1,140 @@
+/******** Smartphone *******/
+
+/* Typography
+================================= */
+.center-text{
+    text-align: center;
+}
+
+h1,h2,h3,p{
+    font-weight: bold;
+}
+
+/* Images
+================================= */
+.img-responsive{
+    margin: 0 auto;
+}
+
+#phone1{
+    width: 100%;
+}
+
+#phone4{
+    width: 60%;
+}
+
+/* Links
+================================= */
+.boxes{
+    border-bottom: 1px solid white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+
+.boxes a{
+    color: white;
+    font-weight: bold;
+}
+
+.boxes:hover, .boxes:hover a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+/* Layout
+================================= */
+body{
+    background-image: url("../img/phone1bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.outline{
+    border: 1px solid black;
+}
+
+.text-bg{
+    background-color: #204d74;
+    opacity: 0.9;
+}
+
+#intro-block{
+    margin-top: -30px;
+}
+
+.center-block{
+    margin: 0 auto;
+}
+
+#download-block{
+    margin: 20px 0px 30px 0px;
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: #333333;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+#incorporated{
+    margin-top: 15px;
+}
+/* Buttons
+================================= */
+
+/* Logos & Icons
+================================= */
+
+/* Media Queries
+================================= */
+
+/* Tablet */
+@media only screen and (min-width: 481px) {
+    /* Images
+    ================================= */
+    #phone1{
+        width: 50%;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+
+    /* Layout
+================================= */
+    #intro-block{
+        margin-top: 150px;
+    }
+
+    #second-block{
+        margin-top: 50px;
+    }
+
+    /* Images
+    ================================= */
+    #phone1{
+        width: 65%;
+    }
+
+    #phone5{
+        width: 70%;
+    }
+
+    /* Links
+    ================================= */
+
+    .boxes{
+        border-bottom: none;
+        width: 16%;
+        margin: 0 0 0 0;
+    }
+    .boxes:hover, .boxes:hover a{
+        background-color: #333333;
+        color: black;
+    }
+}

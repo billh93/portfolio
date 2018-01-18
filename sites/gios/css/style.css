@@ -1,0 +1,487 @@
+@charset "UTF-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85.5%;
+	padding-left: 2.25%;
+	padding-right: 2.25%;
+	padding-bottom: 5%;
+	clear: none;
+	float: none;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0px 1px 10px black;
+}
+
+.zeroMargin_mobile {
+    margin-left: 0;
+}
+.hide_mobile {
+    display: none;
+}
+
+/**********************
+    Header/Navigation
+**********************/	
+html{
+	background-image: url('../images/bg/bg1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#gios_logo{
+	display: block;
+	margin: 4% auto;
+	max-width: 70%;
+}
+
+#main_menu > #drop_nav{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #3a96ff;
+	color: white;
+}
+
+#main_menu > #drop_nav > li{
+	display: inline-block;
+	padding: 0 0.5%;
+	position: relative;
+	color: white;
+}
+
+#main_menu > #drop_nav > li > a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#main_menu > #drop_nav > li a:hover{
+	color: white;
+	text-shadow: 1px 1px 10px white;
+}
+
+#main_menu > #drop_nav > li > ul {
+	display: none;
+}
+
+#drop_nav li a {
+	display: block;
+	padding: 10% 0;
+	text-decoration: none;
+	color: white;
+}
+
+#main_menu > #drop_nav > li:hover ul {
+	display: block;
+	position: absolute;
+	background-color: #3a96ff;
+	font-weight: bold;
+	padding: 5% 20%;
+	box-shadow: 3px 2px 4px rgba(107,107,107,0.81);
+}
+  
+/**********************
+   Content/Homepage
+**********************/
+#schedule{
+	margin: 2% 0 0 0;	
+	text-align: center;
+	line-height: 1em;
+}
+
+.social-icons{
+	width: 50px;
+	height: 50px;
+	margin: 2% 5% 5% 5%;
+}
+
+#intro{
+	margin: 2% 0 0 0;
+}
+	
+#welcome{
+	text-align:center;
+	font-size: 1.5em;
+}
+
+.p_size{
+	font-size: 1.2em;
+}
+
+.text_center{
+	text-align:center;
+}
+
+/**********************
+     Content/About
+**********************/
+noscript{
+	text-align: center;	
+}
+
+#hours{
+	border: 1px solid black;
+	width: 90%;
+	margin: 0 auto 5% auto;
+}
+
+.bold{
+	font-weight: bold;	
+}
+
+#hours_operation {
+	text-decoration: underline;	
+}
+
+#about_us{
+	text-decoration: underline;	
+}
+
+#right{
+	background-color: rgba(204,204,204,0.73);
+	border-radius: 3%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/**********************
+     Content/Breakfast
+**********************/
+
+.foodTitle {
+	font-weight: bold;	
+}
+
+/**********************
+     Content/Drinks
+**********************/
+
+#drinks, table{
+	text-align:center;
+	margin: 0 auto;
+}
+
+table{
+	font-size: 1.3em;
+}
+
+.typeBeer{
+	text-decoration: underline;
+}
+
+#drinkLeft{
+	margin: 0 auto 4% auto;
+	border: 1px solid black;
+	border-radius: 2%;
+	background-color: lightgray;
+	max-width: 85%;
+}
+
+#drinkRight{
+	margin: 0 auto 4% auto;
+	border: 1px solid black;
+	border-radius: 2%;
+	background-color: lightgray;
+	max-width: 85%;
+}
+
+/**********************
+     Content/Contact
+**********************/
+
+.message {
+	font-size: 1.1em;
+	text-align: center;
+	margin: 5% 0 5% 0;	
+}
+
+.error_message{
+	color: red;
+	font-size: 1.1em;	
+	text-align: center;
+	margin: 5% 0 5% 0;	
+}
+
+#name, #email, #message, #captcha{
+	width: 70%;
+	padding: 2% 2%;
+	font-size: 1.2em;	
+}
+
+input, textarea, button{
+	margin: 3% auto;
+	display: block;	
+}
+
+#submit {
+	background: #3a96ff;
+	border-color: #3a96ff;
+	color: white;
+	padding: 2% 5%;
+	font-size: 1.2em;
+	border-radius: 10%;
+}
+
+#submit:hover{
+	text-shadow: 1px 1px 10px white;
+	box-shadow: 3px -7px 6px 3px rgba(139,139,139,1.00);
+	-webkit-box-shadow: 1px 1px 6px 1px rgba(139,139,139,1.00);
+}
+
+/**********************
+    		Footer
+**********************/	
+
+footer{
+	margin-bottom: 3%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 2.25%;
+	padding-right: 2.25%;
+	width: 85.5%;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0px 1px 10px black;
+}
+ 
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 87.75%;
+	padding-left: 1.125%;
+	padding-right: 1.125%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	box-shadow: 0px 3px 10px black;
+}
+
+.zeroMargin_tablet {
+    margin-left: 0;
+}
+.hide_tablet {
+    display: none;
+}
+
+/**********************
+    Header/Navigation
+**********************/	
+#main_menu{
+	font-size: 1.3em;
+}
+
+#main_menu > #drop_nav > li{
+	padding: 0 2.5%;
+}
+
+.p_size{
+	font-size: 1.2em;
+}
+
+/**********************
+    Content/Homepage
+**********************/	
+
+#schedule{
+	margin: 2% 3% 0 2%;
+	padding: 1%;
+	text-align: center;
+	line-height: 1em;
+}
+
+#intro{
+	margin: 2% 0 2% 0;
+}
+
+/**********************
+   Content/Drinks
+**********************/
+
+#drinkLeft{
+	max-width: 50%;
+}
+
+#drinkRight{
+	max-width: 50%;
+}
+
+/**********************
+    	Footer
+**********************/	
+
+footer{
+	box-shadow: 0px 3px 10px black;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 88.5%;
+	max-width: 1232px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	padding-bottom: 2%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	margin-top: 5%;
+}
+
+/**********************
+    Content/Homepage
+**********************/	
+
+#schedule{
+	margin: 2% 0 0 5%;
+	display: block;
+	float: left;
+	width: 30%;
+}
+
+#intro{
+	display: block;
+	float: left;
+	width: 60%;
+}
+
+/**********************
+    Content/About
+**********************/
+#left {
+	display: block;
+	float: left;
+	width: 40%;
+	margin: 0 5% 0 5%; 
+}
+
+.hide_mobile{
+	display: block;
+}
+
+#hours{
+	border: 1px solid black;
+	padding: 0 5%;	
+}
+
+.bold{
+	font-weight: bold;	
+}
+
+#hours_operation {
+	text-decoration: underline;	
+}
+#left img {
+	margin: 15% 0 0 0;	
+}
+#right{
+	display: block;
+	float: left;
+	width: 40%;
+	border: 1px solid black;
+	padding: 1% 3%;	
+}
+
+/**********************
+    Content/Drinks
+**********************/
+
+#drinks > h1{
+	font-size: 2em;
+}
+
+table{
+	font-size: 1.5em;
+}
+
+section #drinks{
+	border: 1 px solid black;	
+}
+
+#drinkLeft {
+	display: block;
+	float: left;
+	width: 35%;
+	margin: 0 5% 5% 10%;
+}
+
+#drinkRight {
+	display: block;
+	float: left;
+	width: 35%;
+	margin: 0 5%;
+}
+
+/**********************
+     Content/Contact
+**********************/
+
+.message {
+	font-size: 1.7em;
+	margin: 3% 0 3% 0;	
+}
+
+.error_message{
+	font-size: 1.7em;	
+	margin: 3% 0 3% 0;	
+}
+
+#name, #email, #message, #captcha{
+	width: 50%;
+	padding: 1% 1%;
+	font-size: 1.2em;	
+}
+
+#submit {
+	padding: 0.5% 2%;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.zeroMargin_desktop {
+    margin-left: 0;
+}
+.hide_desktop {
+    display: none;
+}
+
+}

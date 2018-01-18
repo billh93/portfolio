@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.kaushan{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1.5em;
+	color: white !important;
+}
+
+.main-text{
+	font-family: 'Droid Serif', serif;
+	font-size: 5em;
+}
+
+.main-subtext{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+}
+
+.top-space{
+	margin-top: 2.8em;
+}
+
+.about-desc-padding{
+	padding: 2.8em;
+	margin-top: 3%;
+}
+
+header {
+    background-image: url('img/info-sec.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+    text-align: center;
+    color: #fff;
+}
+
+#intro{
+	padding: 15% 0 15% 0;
+}
+
+#contact{
+	background-color: #ebf5f7;
+	padding-bottom: 1%;
+}
+
+footer{
+	background-color: #157dfd;
+	color: white;
+	padding: 1% 0;
+}
+
+footer a{
+	color: white;
+}

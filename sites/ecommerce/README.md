@@ -1,0 +1,1 @@
+This is an e-commerce style design website to showcase my skills.
