@@ -63,8 +63,8 @@ $('.nav a').click(function(){
  * Randomly Changes main bg section
  */
 function changeMainBg(){
-    var bg = ['/img/city1.jpg','/img/city2.jpg','/img/earth.jpg',
-    '/img/jarvis.png', '/img/world.jpg', '/img/matrix.jpg', '/img/touchtable.jpg'];
+    var bg = ['img/city1.jpg','img/city2.jpg','img/earth.jpg',
+    'img/jarvis.png', 'img/world.jpg', 'img/matrix.jpg', 'img/touchtable.jpg'];
 
     var length = bg.length;
 
@@ -80,7 +80,3 @@ changeMainBg();
  */
 var parts = ["h93", "bill", 64, "il.com", "gma"];
 document.getElementById("obfuscate").textContent = parts[1] + parts[0] + String.fromCharCode(parts[2]) + parts[4] + parts[3];
-
-
-
-
