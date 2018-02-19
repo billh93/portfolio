@@ -32,9 +32,9 @@ $(document).ready( function() {
 	/**
 	* Randomize my profile picture
 	*/
-	var images = ['me.jpg', 'me2.jpg', 'me3.jpg', 'me4.jpg'];
+	/*var images = ['me.jpg', 'me2.jpg', 'me3.jpg', 'me4.jpg'];
 	$('<img id="me" class="img-circle" src="img/' + images[Math.floor(Math.random() * images.length)] + '" alt="Bill Hinostroza Profile Picture">').appendTo('#img-load');
-
+    */
 });
 
 /**
