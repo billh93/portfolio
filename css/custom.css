@@ -1,5 +1,4 @@
 /******** Global *******/
-
 html {
 	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/ironman-ani.ani"),
 	url("http://downloads.totallyfreecursors.com/thumbnails/ironman-ani.gif"), auto;
@@ -66,6 +65,17 @@ html {
     width: 100%;
     text-align: center;
 }
+#githubChart{
+	display: block;
+    max-width: 100%;
+    height: auto;
+	margin: 0 auto;
+}
+#feed{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
 /* Links
 ================================= */
 .active{
@@ -114,9 +124,10 @@ body{
     top: 0;
 }
 #intro-row{
-    background-image: url("img/jarvis.png");
+    background-image: url("../img/jarvis.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
+	width: 100%;
 }
 
 .talent-row:hover{
@@ -132,9 +143,8 @@ body{
     float: right;
 }
 
-.g-recaptcha{
-    margin: 0 auto 20px auto;
-    display: inline-block;
+#intro-row, #experience, #talent, #languages, #tools, #portfolio, #connect{
+	width: 100%;
 }
 
 /* Buttons

@@ -3,6 +3,11 @@
  */
 
 
+ /**
+  * GitHub Activity Feed
+  */
+ GitHubActivity.feed({ username: "billh93", selector: "#feed", limit: 5 });
+
 /**
  * Makes nav stick to the top after user scrolls.
  */
@@ -74,9 +79,3 @@ function changeMainBg(){
 }
 
 changeMainBg();
-
-/**
- * Obfuscate Email Address
- */
-var parts = ["h93", "bill", 64, "il.com", "gma"];
-document.getElementById("obfuscate").textContent = parts[1] + parts[0] + String.fromCharCode(parts[2]) + parts[4] + parts[3];
